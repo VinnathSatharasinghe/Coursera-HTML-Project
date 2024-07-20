@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+header {
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;   
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 120px;
+    width: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    width: 1300px;
+    margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.promo {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/pics/121.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    color: white;
+    
+}
+
+.promo h1 {
+
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+.promo p {
+
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: -340px;
+    width: 700px;
+    word-spacing: 2px;
+
+}
+
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    padding: 10px 0;
+}
+
+.card p {
+    padding: 0 10px 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.card a:visited {
+    color: darkmagenta;
+}
+
+.card a:hover{
+    color: black;
+}
+
+.card a:active{
+    color:green;
+}
+
+
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
